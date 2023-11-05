@@ -51,22 +51,22 @@ const AdminDashboard = () => {
     <>
       <div className='vh-100'>
 
-        <div className='d-flex'>
+        <div className='d-flex '>
           <div className="box bg1 m-5 rounded-3 text-white-50 text-center fs-3 p-3">
-            <a className="d-block text-white-50 text-decoration-none d-block"><i className="fa-solid fa-user pe-3 " />User</a>
-            <span className="fs-5" id="user">{usercnt}</span>
+            <a className="d-block text-white-50 bg1 text-decoration-none d-block"><i className="fa-solid fa-user pe-3 " />User</a>
+            <span className="fs-5 bg1" id="user">{usercnt}</span>
           </div>
           <div className="box bg1 m-5 rounded-3 text-white-50 text-center fs-3 p-3">
-            <a className="d-block text-white-50 text-decoration-none d-block"><i class="bi bi-card-checklist pe-3"></i>Category</a>
-            <span className="fs-5" id="user">{categorycnt}</span>
+            <a className="d-block bg1 text-white-50 text-decoration-none d-block"><i class="bi bi-card-checklist pe-3"></i>Category</a>
+            <span className="fs-5 bg1" id="user">{categorycnt}</span>
           </div>
           <div className="box bg1 m-5 rounded-3 text-white-50 text-center fs-3 p-3">
-            <a className="d-block text-white-50 text-decoration-none d-block"><i class="bi bi-cart pe-3"></i>Products</a>
-            <span className="fs-5" id="user">{productcnt}</span>
+            <a className="d-block bg1 text-white-50 text-decoration-none d-block"><i class="bi bi-cart pe-3"></i>Products</a>
+            <span className="fs-5 bg1" id="user">{productcnt}</span>
           </div>
           <div className="box bg1 m-5 rounded-3 text-white-50 text-center fs-3 p-3">
-            <a className="d-block text-white-50 text-decoration-none d-block"><i class="bi bi-sliders pe-3"></i>Slider</a>
-            <span className="fs-5" id="user">{slidercnt}</span>
+            <a className="d-block bg1 bg1 text-white-50 text-decoration-none d-block"><i class="bi bi-sliders pe-3"></i>Slider</a>
+            <span className="fs-5 bg1" id="user">{slidercnt}</span>
           </div>
         </div>
       </div>
