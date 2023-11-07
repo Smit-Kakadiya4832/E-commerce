@@ -67,7 +67,7 @@ const Cart = () => {
         }
         AllCart();
         AllTotal();
-    }, [cart])
+    },[])
 
     return (
         <>

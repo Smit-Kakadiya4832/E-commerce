@@ -14,9 +14,6 @@ const Home = () => {
 
     const getAllData = async () => {
         let electronicsData = await axios.get(`http://localhost:8000/products?category=Electronics&marketstatus=best&status=instock`)
-        // let ans =  alldata.data.filter((item)=>{ 
-        //     return item.category === "eletronics";  
-        // })
         setElectronics(electronicsData.data.slice(0, 4));
 
         let grocerydata = await axios.get(`http://localhost:8000/products?category=Grocery&marketstatus=best&status=instock`)
@@ -71,7 +68,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="container-fluid px-4 pt-4" >
+            {/* <div className="container-fluid px-4 pt-4" >
                 <div style={{ backgroundColor: "white" }} className="p-5 rounded-3">
                     <h2 className="pb-4 border-2 border-bottom">Best of Grocery</h2>
                     <div className="row">
@@ -95,7 +92,7 @@ const Home = () => {
                         }
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className="container-fluid px-4 pt-4" >
                 <div style={{ backgroundColor: "white" }} className="p-5 rounded-3">
